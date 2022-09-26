@@ -1,3 +1,13 @@
+# Implementation of SVRG from Scratch on Gisette by Shigeng Sun
+# requires gisette_scale and gisette_scale.t in the same directory,
+# avaliable for download from 
+# https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
+# also requires load_svmlight_file from the same libsvm library
+
+# Data is originaly from https://archive.ics.uci.edu/ml/datasets/Gisette in
+# Isabelle Guyon, Steve R. Gunn, Asa Ben-Hur, Gideon Dror, 2004.
+# Result analysis of the NIPS 2003 feature selection challenge. In: NIPS.
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_svmlight_file
